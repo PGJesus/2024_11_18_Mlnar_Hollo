@@ -12,3 +12,16 @@ elif megadott_mondat[-1] == "!":
     print("Ez a mondat felkiáltó/óhajtó/felszólító.")
 else:
     print("Nem adtál meg helyes mondatvégi írásjelet.")
+
+# endswitch kivesézni
+
+if megadott_mondat.endswitch("..."):
+    print("Ez a mondat ...")
+elif megadott_mondat.endswitch("."):
+    print("Ez a mondat kijelentő.")
+elif megadott_mondat.endswitch("?"):
+    print("Ez a mondat kérdő.")
+elif megadott_mondat.endswitch("!"):
+    print("Ez a mondat felkiáltó/óhajtó/felszólító.")
+else:
+    print("Nem adtál meg helyes mondatvégi írásjelet.")
