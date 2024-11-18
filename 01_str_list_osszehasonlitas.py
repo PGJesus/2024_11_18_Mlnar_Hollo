@@ -10,6 +10,7 @@ print(sztring[:9])
 print(sztring[7:])
 
 # Meghatározhatjuk a hosszukat
+szamlalo = 0
 print(len(sztring))
 
 # for-ciklussal is bejárhatóak
@@ -18,6 +19,9 @@ for betu in sztring:
     if betu == 'e' or betu == 'E':
         szamlalo += 1
 print(f'A sztringben {szamlalo} db e/E betű van.')
+
+e_betuk = sztring.count("e") + sztring.count("E")
+print(e_betuk)
 
 # Ezeknél is használható az in operátor
 if 'e' in sztring:
